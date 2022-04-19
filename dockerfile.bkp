@@ -1,0 +1,5 @@
+FROM httpd
+
+RUN rm -r /usr/local/apache2/htdocs/* && ls /usr/local/apache2/htdocs/
+
+EXPOSE 80
